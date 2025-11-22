@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mein Geschenk für Dich</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Für Dich, meine Liebe</h1>
+        <p>Ein Ort voller Erinnerungen und Liebe</p>
+    </header>
+
+    <section class="about">
+        <h2>Unsere Geschichte</h2>
+        <p>Hier kannst du eine romantische Nachricht oder die Geschichte eurer Beziehung einfügen. Zum Beispiel, wann ihr euch kennengelernt habt, besondere Erlebnisse oder eure gemeinsamen Träume.</p>
+    </section>
+
+    <section class="photo-gallery">
+        <h2>Unsere schönsten Momente</h2>
+        <div class="gallery">
+            <img src="image1.jpg" alt="Bild 1">
+            <img src="image2.jpg" alt="Bild 2">
+            <img src="image3.jpg" alt="Bild 3">
+            <!-- Hier kannst du weitere Bilder hinzufügen -->
+        </div>
+    </section>
+
+    <section class="messages">
+        <h2>Meine Liebeserklärung</h2>
+        <p>Hier kannst du eine persönliche Nachricht oder Zitate einfügen, die du für sie hast. Ein paar liebe Worte, die von Herzen kommen!</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Deine Liebe</p>
+    </footer>
+</body>
+</html>
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fef4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #ffb6c1;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.about p, .messages p {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    color: #555;
+}
+
+.photo-gallery .gallery {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.photo-gallery img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffb6c1;
+    color: white;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 1rem;
+}
